@@ -1,0 +1,132 @@
+.inpArea {
+  margin: 20px auto 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.inpText {
+  padding: 5px 10px;
+  flex: 1 0 auto;
+  background: transparent;
+  border-bottom: 1px solid var(--color-gray-f);
+  cursor: pointer;
+  color: var(--color-white);
+  &::placeholder {
+    color: var(--color-gray-d);
+  }
+}
+
+.inpArea button {
+  flex: 1 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+.addBtn {
+  background-color: var(--color-blue-dark);
+}
+
+.delBtn {
+  background: var(--color-indigo);
+}
+
+.todoWrap {
+  margin-top: 50px;
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.todoItem {
+  padding: 10px;
+  width: 100%;
+  background: var(--color-sub-4);
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+
+.todoInner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.todoChk {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  accent-color: var(--color-main-4);
+}
+
+.todoText {
+  padding: 10px 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-user-drag: none;
+  text-align: center;
+  background: transparent;
+  color: inherit;
+  user-select: none;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-weight: bold;
+  &:disabled {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+.editBtn {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+}
+
+.delBtn {
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+/* ============================ */
+
+.editArea {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inpEdit {
+  padding: 5px;
+}
+
+.chkArea {
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.subBtn {
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--color-white);
+  background: var(--color-sub-2);
+}
